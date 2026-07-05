@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabin Yadav</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+
+  body {
+    min-height:100vh;
+    background: radial-gradient(circle at top, #1b2735 0%, #090a0f 100%);
+    color:#e6edf3;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:60px 20px;
+  }
+
+  .container { width:100%; max-width:480px; text-align:center; }
+
+  .profile-img {
+    width:110px; height:110px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #58a6ff;
+    box-shadow:0 0 20px rgba(88,166,255,0.4);
+    margin-bottom:18px;
+  }
+
+  .name { font-size:1.5rem; font-weight:700; margin-bottom:6px; }
+
+  .bio {
+    font-size:0.95rem;
+    color:#8b949e;
+    max-width:360px;
+    margin:0 auto 32px auto;
+    line-height:1.5;
+  }
+
+  .links-wrapper { display:flex; flex-direction:column; gap:14px; margin-bottom:36px; }
+
+  .link-card {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    backdrop-filter:blur(6px);
+    color:#e6edf3;
+    text-decoration:none;
+    padding:16px;
+    border-radius:14px;
+    font-size:1rem;
+    font-weight:500;
+    transition:all 0.25s ease;
+  }
+
+  .link-card:hover {
+    background:rgba(88,166,255,0.15);
+    border-color:#58a6ff;
+    transform:translateY(-3px);
+  }
+
+  .link-card i { font-size:1.2rem; width:22px; }
+
+  .socials { display:flex; justify-content:center; gap:26px; }
+
+  .social-icon {
+    color:#8b949e;
+    font-size:1.6rem;
+    transition:all 0.25s ease;
+  }
+
+  .social-icon:hover { color:#58a6ff; transform:scale(1.15); }
+
+  footer {
+    margin-top:40px;
+    font-size:0.8rem;
+    color:#484f58;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img class="profile-img" src="https://your-image-url.com/photo.jpg" alt="Profile Picture">
+      <h1 class="name">Sabin Yadav</h1>
+      <p class="bio">Medical student | USMLE Step 1 prep | Interested in surgical simulation & clinical research</p>
+    </div>
+
+    <div class="links-wrapper">
+      <a href="https://github.com/sabinyadav" target="_blank" class="link-card">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="link-card">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://youtube.com/@yourchannel" target="_blank" class="link-card">
+        <i class="fab fa-youtube"></i> YouTube
+      </a>
+      <a href="mailto:your-email@example.com" class="link-card">
+        <i class="fas fa-envelope"></i> Contact Me
+      </a>
+    </div>
+
+    <div class="socials">
+      <a href="https://twitter.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://instagram.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer>© 2026 Sabin Yadav</footer>
+  </div>
+</body>
+</html>
