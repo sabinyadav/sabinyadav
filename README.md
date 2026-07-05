@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://your-image-url.com/profile.png" width="100" style="border-radius:50%"/>
+  <img src="https://i.ibb.co/TqFkGFhr/IMG-4298.jpg" width="100" style="border-radius:50%"/>
   
   ### Your Name
   A brief catchphrase or short bio about who you are.
