@@ -1,8 +1,8 @@
 <div align="center">
   <img src="https://i.ibb.co/TqFkGFhr/IMG-4298.jpg" width="100" style="border-radius:50%"/>
   
-  ### Your Name
-  A brief catchphrase or short bio about who you are.
+  ### Sabin Yadav
+  A learner & student learning something new everyday
 
   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/yourchannel)
   [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/yourchannel)
