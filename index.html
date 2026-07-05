@@ -64,20 +64,44 @@
     transform:translateY(-3px);
   }
 
-  .link-card i { font-size:1.2rem; width:22px; }
+ .links-wrapper { display:flex; flex-direction:column; gap:14px; margin-bottom:20px; }
 
-  .socials { display:flex; justify-content:center; gap:26px; }
-
-  .social-icon {
-    color:#8b949e;
-    font-size:1.6rem;
+  .link-card {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    backdrop-filter:blur(6px);
+    color:#e6edf3;
+    text-decoration:none;
+    padding:16px;
+    border-radius:14px;
+    font-size:1rem;
+    font-weight:500;
     transition:all 0.25s ease;
   }
 
-  .social-icon:hover { color:#58a6ff; transform:scale(1.15); }
+  .link-card:hover {
+    background:rgba(88,166,255,0.15);
+    border-color:#58a6ff;
+    transform:translateY(-3px);
+  }
+
+  .link-card i { font-size:1.2rem; width:22px; }
+
+  /* Brand color accents on hover */
+  .link-card.github:hover { border-color:#f0f6fc; background:rgba(255,255,255,0.1); }
+  .link-card.linkedin:hover { border-color:#0A66C2; background:rgba(10,102,194,0.15); }
+  .link-card.twitter:hover { border-color:#ffffff; background:rgba(255,255,255,0.1); }
+  .link-card.instagram:hover { border-color:#E1306C; background:rgba(225,48,108,0.15); }
+  .link-card.substack:hover { border-color:#FF6719; background:rgba(255,103,25,0.15); }
+  .link-card.youtube:hover { border-color:#FF0000; background:rgba(255,0,0,0.15); }
+  .link-card.mail:hover { border-color:#58a6ff; }
 
   footer {
-    margin-top:40px;
+    margin-top:30px;
     font-size:0.8rem;
     color:#484f58;
   }
@@ -91,24 +115,28 @@
       <p class="bio">Medical student | USMLE Step 1 prep | Interested in surgical simulation & clinical research</p>
     </div>
 
-    <div class="links-wrapper">
-      <a href="https://github.com/sabinyadav" target="_blank" class="link-card">
+     <div class="links-wrapper">
+      <a href="https://github.com/sabinyadav" target="_blank" class="link-card github">
         <i class="fab fa-github"></i> GitHub
       </a>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="link-card">
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="link-card linkedin">
         <i class="fab fa-linkedin"></i> LinkedIn
       </a>
-      <a href="https://youtube.com/@yourchannel" target="_blank" class="link-card">
+      <a href="https://twitter.com/sabinydv" target="_blank" class="link-card twitter">
+        <i class="fab fa-x-twitter"></i> Twitter / X
+      </a>
+      <a href="https://instagram.com/sabinydv" target="_blank" class="link-card instagram">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://sabinydv.substack.com" target="_blank" class="link-card substack">
+        <i class="fas fa-book-open"></i> Substack
+      </a>
+      <a href="https://youtube.com/@sabinydv" target="_blank" class="link-card youtube">
         <i class="fab fa-youtube"></i> YouTube
       </a>
-      <a href="mailto:your-email@example.com" class="link-card">
-        <i class="fas fa-envelope"></i> Contact Me
+      <a href="mailto:your-email@example.com" class="link-card mail">
+        <i class="fas fa-envelope"></i> Email Me
       </a>
-    </div>
-
-    <div class="socials">
-      <a href="https://twitter.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-x-twitter"></i></a>
-      <a href="https://instagram.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
     </div>
 
     <footer>© 2026 Sabin Yadav</footer>
